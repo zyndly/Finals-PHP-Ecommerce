@@ -1,0 +1,33 @@
+#title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#sub-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.policy {
+  padding: 0 100px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+p {
+  justify-content: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+div {
+  display: block;
+}

@@ -1,7 +1,0 @@
-Create ka kayo nito sa database sa phpadmin
-**Database Name: ecommerceapp**
-
-
-**Admin Login**
-Email:    zyndly@maxwell.com
-Password: password
