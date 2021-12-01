@@ -103,7 +103,7 @@
 						</div>
 					</div>
 				</div>
-			<div class="wrap-logo-top left-section">
-				<a href="./index.php" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>	
+			<div class="wrap-logo-top left-section" id="logo">
+				<a href="./index.php" class="link-to-home"><img id="logo"src="./assets/images/logo-top-2.png" alt="mercado"></a>	
 			</div>
 		</div>
