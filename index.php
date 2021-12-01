@@ -16,6 +16,8 @@ if(isset($_SESSION["uid"])){
 		<script src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 
+		<link rel="stylesheet" type="text/css" href="style.css">
+
 		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400italic,600,600italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet">
@@ -25,19 +27,15 @@ if(isset($_SESSION["uid"])){
 		<link rel="stylesheet" type="text/css" href="assets/css/chosen.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/color-01.css">
-		<link rel="stylesheet" type="text/css "href="assets/css/policy.css">
-		<!--
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
--->
+		<link rel="stylesheet" type="text/css" href="assets/css/policy.css">
+
 		<style></style>
 	</head>
-<!-- HERE -->
 <body>
 <div class="wait overlay">
 	<div class="loader"></div>
 </div>
-<!--NAVBAR-->
-<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">	
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
@@ -46,8 +44,7 @@ if(isset($_SESSION["uid"])){
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="index.php" class="navbar-brand">
-				Maxwell Shop                                     </a>
+				<a href="index.php" class="navbar-brand">MAXWELL</a>
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<form class="navbar-form navbar-left">
@@ -58,7 +55,7 @@ if(isset($_SESSION["uid"])){
 		     </form>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <span class="badge" >0</span></a>
-					<div class="dropdown-menu" style="width:500px;">
+					<div class="dropdown-menu" style="width:400px;">
 						<div class="panel panel-success">
 							<div class="panel-heading">
 								<div class="row">
@@ -70,13 +67,18 @@ if(isset($_SESSION["uid"])){
 							</div>
 							<div class="panel-body">
 								<div id="cart_product">
+								<!--<div class="row">
+									<div class="col-md-3">Sl.No</div>
+									<div class="col-md-3">Product Image</div>
+									<div class="col-md-3">Product Name</div>
+									<div class="col-md-3">Price in $.</div>
+								</div>-->
 								</div>
 							</div>
 							<div class="panel-footer"></div>
 						</div>
 					</div>
 				</li>
-		<!--END MARK -->
 				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Login/Register</a>
 					<ul class="dropdown-menu">
 						<div style="width:300px;">
@@ -88,7 +90,6 @@ if(isset($_SESSION["uid"])){
 										<input type="email" class="form-control" name="email" id="email" required/>
 										<label for="email">Password</label>
 										<input type="password" class="form-control" name="password" id="password" required/>
-										<p><br/></p>
 										<input type="submit" class="btn btn-warning" value="Login">
 										<a href="customer_registration.php?register=1" style="color:white; text-decoration:none;">Create Account Now</a>
 									</form>
@@ -99,54 +100,102 @@ if(isset($_SESSION["uid"])){
 					</ul>
 				</li>
 			</ul>
+			<br>
 		</div>
 	</div>
-	
-	<!--header-->
-	<header id="header" class="header header-style-1">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="topbar-menu-area">
-					<div class="container">
+</div>	
+<!--MID NAVBAR-->
+		<div class="mid-section main-info-area">
+			<div id="spacing">
+			<P><br></P>
+			</div>
+		<div id="header" class="header header-style-1">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="topbar-menu-area">
+								<div class="container">
+								</div>
+							</div>
+								</div>
+							</div>
+								<div class="primary-nav-section">
+									<div class="container">
+										<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
+											<li class="menu-item home-icon">
+												<a href="index.php" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
+											</li>
+											<li class="menu-item">
+												<a href="about-us.php" class="link-term mercado-item-title">About Us</a>
+											</li>
+											<li class="menu-item">
+												<a href="contact-us.php" class="link-term mercado-item-title">Contact Us</a>
+											</li>																	
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+			<div class="wrap-logo-top left-section">
+				<a href="index.php" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>	
+			</div>
+		</div>
+<!--END OF NAV BAR-->
+<main id="main">
+		<div class="container">
+
+			<!--MAIN SLIDE-->
+			<div class="wrap-main-slide">
+				<div class="slide-carousel owl-carousel style-nav-1" data-items="1" data-loop="1" data-nav="true" data-dots="false">
+					<div class="item-slide">
+						<img src="assets/images/main-slider-1-1.jpg" alt="" class="img-slide">
+						<div class="slide-info slide-1">
+							<h2 class="f-title">Kid Smart <b>Watches</b></h2>
+							<span class="subtitle">Compra todos tus productos Smart por internet.</span>
+							<p class="sale-info">Only price: <span class="price">₱599.99</span></p>
+							<a href="#" class="btn-link">Shop Now</a>
+						</div>
 					</div>
-				</div>
-					<div class="primary-nav-section">
-						<div class="container">
-							<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
-								<li class="menu-item home-icon">
-									<a href="index.php" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
-								</li>
-								<li class="menu-item">
-									<a href="about-us.php" class="link-term mercado-item-title">About Us</a>
-								</li>
-								<li class="menu-item">
-									<a href="contact-us.php" class="link-term mercado-item-title">Contact Us</a>
-								</li>																	
-							</ul>
+					<div class="item-slide">
+						<img src="assets/images/main-slider-1-2.jpg" alt="" class="img-slide">
+						<div class="slide-info slide-2">
+							<h2 class="f-title">Extra 25% Off</h2>
+							<span class="f-subtitle">On online payments</span>
+							<p class="discount-code">Use Code: #FA6868</p>
+							<h4 class="s-title">Get Free</h4>
+							<p class="s-subtitle">TRansparent Bra Straps</p>
+						</div>
+					</div>
+					<div class="item-slide">
+						<img src="assets/images/main-slider-1-3.jpg" alt="" class="img-slide">
+						<div class="slide-info slide-3">
+							<h2 class="f-title">Great Range of <b>Exclusive Furniture Packages</b></h2>
+							<span class="f-subtitle">Exclusive Furniture Packages to Suit every need.</span>
+							<p class="sale-info">Stating at: <b class="price">₱22,500.00</b></p>
+							<a href="#" class="btn-link">Shop Now</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
-	<div class="container">
-		<div class="mid-section main-info-area">
-		<p><br/></p>
-		<p><br/></p>
-		<p><br/></p>
-		<p><br/></p>
-		<p><br/></p>
 
-			<div class="wrap-logo-top left-section">
-				<a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>	
+			<!--BANNER-->
+			<div class="wrap-banner style-twin-default">
+				<div class="banner-item">
+					<a href="#" class="link-banner banner-effect-1">
+						<figure><img src="assets/images/home-1-banner-1.jpg" alt="" width="580" height="190"></figure>
+					</a>
+				</div>
+				<div class="banner-item">
+					<a href="#" class="link-banner banner-effect-1">
+						<figure><img src="assets/images/home-1-banner-2.jpg" alt="" width="580" height="190"></figure>
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-<!--END OF NAV BAR-->
-	<p><br/></p>
+
 	<div class="container-fluid">
+		<p><br></p>
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-2 col-xs-12">
@@ -359,6 +408,10 @@ if(isset($_SESSION["uid"])){
 	<script src="assets/js/jquery.countdown.min.js"></script>
 	<script src="assets/js/jquery.sticky.js"></script>
 	<script src="assets/js/functions.js"></script>
+
+	<script src="js/jquery2.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
 	<!--footer area-->
 </body>
 </html>
