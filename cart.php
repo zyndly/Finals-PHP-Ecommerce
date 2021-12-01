@@ -175,8 +175,8 @@ require "config/constants.php";
 		</div>
 <!--END CONTENT-->
 
-	<!--FOOTER-->
-	<footer id="footer">
+		<!--FOOTER-->
+		<footer id="footer">
 		<div class="wrap-footer-content footer-style-1">
 			<div class="wrap-function-info">
 				<div class="container">
@@ -185,7 +185,7 @@ require "config/constants.php";
 							<i class="fa fa-truck" aria-hidden="true"></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Free Shipping</h4>
-								<p class="fc-desc">Free On Oder Over $99</p>
+								<p class="fc-desc">Free On Order 5000 Pesos Above</p>
 							</div>
 
 						</li>
@@ -289,7 +289,7 @@ require "config/constants.php";
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
-								<h3 class="item-header">Dowload App</h3>
+								<h3 class="item-header">Download App</h3>
 								<div class="item-content">
 									<div class="wrap-list-item apps-list">
 										<ul>
@@ -348,6 +348,7 @@ require "config/constants.php";
 			</div>
 		</div>
 	</footer>
+	
 	
 	<script src="assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4"></script>
 	<script src="assets/js/bootstrap.min.js"></script>

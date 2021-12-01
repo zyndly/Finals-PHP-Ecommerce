@@ -25,6 +25,7 @@ if(isset($_SESSION["uid"])){
 		<link rel="stylesheet" type="text/css" href="assets/css/chosen.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/color-01.css">
+		<link rel="stylesheet" type="text/css "href="assets/css/policy.css">
 		<!--
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 -->
@@ -36,7 +37,7 @@ if(isset($_SESSION["uid"])){
 	<div class="loader"></div>
 </div>
 <!--NAVBAR-->
-	<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">	
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
@@ -130,17 +131,20 @@ if(isset($_SESSION["uid"])){
 			</div>
 		</div>
 	</header>
+	<div class="container">
+		<div class="mid-section main-info-area">
+		<p><br/></p>
+		<p><br/></p>
+		<p><br/></p>
+		<p><br/></p>
+		<p><br/></p>
 
-	<div class="wrap-logo-top left-section">
-	<p><br/></p>
-	<p><br/></p>
-	<p><br/></p>
-	<p><br/></p>
-		<a href="index.php" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>
+			<div class="wrap-logo-top left-section">
+				<a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>	
+			</div>
+		</div>
 	</div>
 <!--END OF NAV BAR-->
-</div>	
-	<p><br/></p>
 	<p><br/></p>
 	<div class="container-fluid">
 		<div class="row">
@@ -184,7 +188,7 @@ if(isset($_SESSION["uid"])){
 							<i class="fa fa-truck" aria-hidden="true"></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Free Shipping</h4>
-								<p class="fc-desc">Free On Oder Over $99</p>
+								<p class="fc-desc">Free On Order 5000 Pesos Above</p>
 							</div>
 
 						</li>
@@ -288,7 +292,7 @@ if(isset($_SESSION["uid"])){
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
-								<h3 class="item-header">Dowload App</h3>
+								<h3 class="item-header">Download App</h3>
 								<div class="item-content">
 									<div class="wrap-list-item apps-list">
 										<ul>

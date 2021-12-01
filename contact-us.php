@@ -173,31 +173,25 @@
                 
                 
                 
-                --CREATE GOOGLE MAP API
+                --Google Map
             
             
-            
+
             --> 
                 <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                     <div class="contact-box contact-info">
                         <div class="wrap-map">
                             <div class="mercado-google-maps"
-                                 id="az-google-maps57341d9e51968"
-                                 data-hue=""
-                                 data-lightness="1"
-                                 data-map-style="2"
-                                 data-saturation="-100"
-                                 data-modify-coloring="false"
-                                 data-title_maps="Interworld Colleges Foundation - Paniqui, Burgos St., Paniqui, Tarlac Paniqui Tarlac"
-                                 data-phone="(045) 493 1381"
-                                 data-email="kdlocco17@gmail.com"
-                                 data-address="Burgos St., Paniqui, Tarlac Paniqui Tarlac"
-                                 data-longitude="15.667506311759551"
-                                 data-latitude="120.57495507927948"
-                                 data-pin-icon=""
-                                 data-zoom="16"
-                                 data-map-type="ROADMAP"
-                                 data-map-height="263">
+								<div class="mapouter">
+									<div class="gmap_canvas">
+										<iframe width="512" height="263" id="gmap_canvas" src="https://maps.google.com/maps?q=Interworld%20Colleges%20Foundation%20-%20Paniqui,%20Burgos%20St.,%20Paniqui,%20Tarlac%20Paniqui%20Tarlac&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+										<a href="https://123movies-to.org">123movies</a
+										<br>
+										<style>.mapouter{position:relative;text-align:right;height:263px;width:512px;}</style>
+										<a href="https://www.embedgooglemap.net"></a>
+										<style>.gmap_canvas {overflow:hidden;background:none!important;height:263px;width:512px;}</style>
+									</div>
+								</div>
                             </div>
                         </div>
                         <h2 class="box-title">Contact Detail</h2>
@@ -240,8 +234,8 @@
 </main>
 <!--main area-->
 <!-- END CONTENT -->
-<!--FOOTER-->
-<footer id="footer">
+	<!--FOOTER-->
+	<footer id="footer">
 		<div class="wrap-footer-content footer-style-1">
 			<div class="wrap-function-info">
 				<div class="container">
@@ -250,7 +244,7 @@
 							<i class="fa fa-truck" aria-hidden="true"></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Free Shipping</h4>
-								<p class="fc-desc">Free On Oder Over $99</p>
+								<p class="fc-desc">Free On Order 5000 Pesos Above</p>
 							</div>
 
 						</li>
@@ -354,7 +348,7 @@
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
-								<h3 class="item-header">Dowload App</h3>
+								<h3 class="item-header">Download App</h3>
 								<div class="item-content">
 									<div class="wrap-list-item apps-list">
 										<ul>
@@ -393,7 +387,7 @@
 					</div>
 				</div>
 
-                <div class="coppy-right-box">
+			<div class="coppy-right-box">
 				<div class="container">
 					<div class="coppy-right-item item-left">
 						<p class="coppy-right-text">Copyright © 2021 Maxwell. All rights reserved</p>
@@ -413,6 +407,7 @@
 			</div>
 		</div>
 	</footer>
+	
 	
 	<script src="assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
