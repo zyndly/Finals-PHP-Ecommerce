@@ -73,68 +73,43 @@ if (isset($_GET["register"])) {
 						</div>
 					</div>
 				</li>
-		<!--END MARK -->
-				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Login/Register</a>
-					<ul class="dropdown-menu">
-						<div style="width:300px;">
-							<div class="panel panel-primary">
-								<div class="panel-heading">Login</div>
-								<div class="panel-heading">
-									<form onsubmit="return false" id="login">
-										<label for="email">Email</label>
-										<input type="email" class="form-control" name="email" id="email" required/>
-										<label for="email">Password</label>
-										<input type="password" class="form-control" name="password" id="password" required/>
-										<p><br/></p>
-										<input type="submit" class="btn btn-warning" value="Login">
-										<a href="customer_registration.php?register=1" style="color:white; text-decoration:none;">Create Account Now</a>
-									</form>
+<!--MID NAVBAR-->
+<div class="mid-section main-info-area">
+		<div id="spacing">
+			<P><br></P>
+			</div>
+		<div id="header" class="header header-style-1">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="topbar-menu-area">
+								<div class="container">
 								</div>
-								<div class="panel-footer" id="e_msg"></div>
+							</div>
+								</div>
+							</div>
+								<div class="primary-nav-section">
+									<div class="container">
+										<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
+											<li class="menu-item home-icon">
+												<a href="index.php" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
+											</li>
+											<li class="menu-item">
+												<a href="about-us.php" class="link-term mercado-item-title">About Us</a>
+											</li>
+											<li class="menu-item">
+												<a href="contact-us.php" class="link-term mercado-item-title">Contact Us</a>
+											</li>																	
+										</ul>
+									</div>
+								</div>
 							</div>
 						</div>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-	
-	<!--header-->
-	<header id="header" class="header header-style-1">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="topbar-menu-area">
-					<div class="container">
 					</div>
 				</div>
-					</div>
-				</div>
-					<div class="primary-nav-section">
-						<div class="container">
-							<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
-								<li class="menu-item home-icon">
-									<a href="index.php" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
-								</li>
-								<li class="menu-item">
-									<a href="about-us.php" class="link-term mercado-item-title">About Us</a>
-								</li>
-								<li class="menu-item">
-									<a href="contact-us.php" class="link-term mercado-item-title">Contact Us</a>
-								</li>																	
-							</ul>
-						</div>
-					</div>
-				</div>
+			<div class="wrap-logo-top left-section">
+				<a href="index.php" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>	
 			</div>
 		</div>
-	</header>
-
-	<div class="wrap-logo-top left-section">
-	<p><br/></p>
-	<p><br/></p>
-	<p><br/></p>
-		<a href="index.php" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>
-	</div>
 <!--END OF NAV BAR-->
 	
 	<div class="container-fluid">
