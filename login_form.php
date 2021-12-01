@@ -19,7 +19,7 @@ if (isset($_POST["login_user_with_product"])) {
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Maxwell Shop</title>
+		<title>Ecommerce</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -33,43 +33,13 @@ if (isset($_POST["login_user_with_product"])) {
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">	
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-					<span class="sr-only">navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="index.php" class="navbar-brand">
-				Maxwell Shop                                     </a>
+				<a href="#" class="navbar-brand">Ecommerce</a>
 			</div>
-		<header id="header" class="header header-style-1">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="topbar-menu-area">
-						<div class="container">
-						</div>
-					</div>
-						</div>
-					</div>
-						<div class="primary-nav-section">
-							<div class="container">
-								<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
-									<li class="menu-item home-icon">
-										<a href="index.php" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
-									</li>
-									<li class="menu-item">
-										<a href="about-us.html" class="link-term mercado-item-title">About Us</a>
-									</li>
-									<li class="menu-item">
-										<a href="contact-us.html" class="link-term mercado-item-title">Contact Us</a>
-									</li>																	
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+			<ul class="nav navbar-nav">
+				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+			</ul>
+		</div>
 	</div>
 	<p><br/></p>
 	<p><br/></p>
@@ -103,29 +73,8 @@ if (isset($_POST["login_user_with_product"])) {
 				<div class="panel-footer"><div id="e_msg"></div></div>
 			</div>
 		</div>
-	<div class="col-md-4"></div>
-</div>
+		<div class="col-md-4"></div>
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
