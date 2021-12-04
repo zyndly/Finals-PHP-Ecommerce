@@ -115,6 +115,74 @@ if(isset($_SESSION["uid"])){
 					data-margin="30"
 					data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"3"},"1200":{"items":"4"}}' >
 
+					
+
+					<div class="team-member equal-elem">
+						<div class="media">
+							<a href="#" title="John Mark">
+								<figure><img src="assets/images/member-jcaberto.jpg" alt="NANA"></figure>
+							</a>
+						</div>
+						<div class="info">
+							<b class="name">John Mark</b>
+							<span class="title">Marketer</span>
+							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+						</div>
+					</div>
+
+					<div class="team-member equal-elem">
+						<div class="media">
+							<a href="#" title="JM">
+								<figure><img src="assets/images/member-lansangan.jpg" alt="NANA"></figure>
+							</a>
+						</div>
+						<div class="info">
+							<b class="name">JM</b>
+							<span class="title">Marketer</span>
+							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+						</div>
+					</div>
+
+					<div class="team-member equal-elem">
+						<div class="media">
+							<a href="#" title="Jam">
+								<figure><img src="assets/images/member-Jam.jpg" alt="NANA"></figure>
+							</a>
+						</div>
+						<div class="info">
+							<b class="name">Jam</b>
+							<span class="title">Marketer</span>
+							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+						</div>
+					</div>
+
+					<div class="team-member equal-elem">
+						<div class="media">
+							<a href="#" title="LUCIA">
+								<figure><img src="assets/images/member-maila.jpg" alt="LUCIA"></figure>
+							</a>
+						</div>
+						<div class="info">
+							<b class="name">Maila</b>
+							<span class="title">Manager</span>
+							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+						</div>
+					</div>
+
+					<div class="team-member equal-elem">
+						<div class="media">
+							<a href="#" title="JohnMichael">
+								<figure><img src="assets/images/member-JohnMichael.jpg" alt="NANA"></figure>
+							</a>
+						</div>
+						<div class="info">
+							<b class="name">John Michael</b>
+							<span class="title">Marketer</span>
+							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+						</div>
+					</div>
+
+
 					<div class="team-member equal-elem">
 						<div class="media">
 							<a href="#" title="ZYNDLY">
@@ -143,55 +211,17 @@ if(isset($_SESSION["uid"])){
 
 					<div class="team-member equal-elem">
 						<div class="media">
-							<a href="#" title="JM">
-								<figure><img src="assets/images/member-lansangan.jpg" alt="NANA"></figure>
+							<a href="#" title="Miggy">
+								<figure><img src="assets/images/member-bancifra.jpg" alt="Bancifra"></figure>
 							</a>
 						</div>
 						<div class="info">
-							<b class="name">JM</b>
-							<span class="title">Marketer</span>
-							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
-						</div>
-					</div>
-
-					<div class="team-member equal-elem">
-						<div class="media">
-							<a href="#" title="BRAUM">
-								<figure><img src="assets/images/member-braum.jpg" alt="BRAUM"></figure>
-							</a>
-						</div>
-						<div class="info">
-							<b class="name">BRAUM</b>
+							<b class="name">Miggy</b>
 							<span class="title">Member</span>
 							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
 						</div>
 					</div>
 
-					<div class="team-member equal-elem">
-						<div class="media">
-							<a href="#" title="LUCIA">
-								<figure><img src="assets/images/member-lucia.jpg" alt="LUCIA"></figure>
-							</a>
-						</div>
-						<div class="info">
-							<b class="name">LUCIA</b>
-							<span class="title">Manager</span>
-							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
-						</div>
-					</div>
-
-					<div class="team-member equal-elem">
-						<div class="media">
-							<a href="#" title="NANA">
-								<figure><img src="assets/images/member-nana.jpg" alt="NANA"></figure>
-							</a>
-						</div>
-						<div class="info">
-							<b class="name">NANA</b>
-							<span class="title">Marketer</span>
-							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
-						</div>
-					</div>
 				</div><!--end Carousel -->
 			</div>
 		</div>
