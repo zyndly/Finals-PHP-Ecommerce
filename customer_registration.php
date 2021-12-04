@@ -1,3 +1,5 @@
+
+
 <?php
 if (isset($_GET["register"])) {
 	
@@ -13,21 +15,15 @@ if (isset($_GET["register"])) {
 		<script src="js/bootstrap.min.js"></script>
 		<script src="main.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 <body>
 <div class="wait overlay">
 	<div class="loader"></div>
 </div>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">	
-			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand">Maxwell</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-			</ul>
-		</div>
-	</div>
+
+	<?php include "./template/navbar.php"; ?>
+
 	<p><br/></p>
 	<p><br/></p>
 	<p><br/></p>
@@ -108,8 +104,10 @@ if (isset($_GET["register"])) {
 			<div class="col-md-2"></div>
 		</div>
 	</div>
-</body>
-</html>
+
+
+
+<?php include "./template/footer.php"; ?>
 	<?php
 }
 
