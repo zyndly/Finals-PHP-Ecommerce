@@ -6,12 +6,15 @@ if(isset($_SESSION["uid"])){
 }
 ?>
 <!-- Headers and Navbar -->
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
+<?php include_once("./template/top.php"); ?>
+<?php include_once("./template/navbar.php"); ?>
 <!--END OF NAV BAR-->
 
 <!--START CONTENT-->
 <main id="main" class="main-site">
+<p><br></p>
+<p><br></p>
+<p><br></p>
 <div class="container">
 	<!-- <div class="main-content-area"> -->
 		<div class="aboutus-info style-center">
@@ -199,4 +202,12 @@ if(isset($_SESSION["uid"])){
 <!-- END CONTENT -->
 
 	<!--FOOTER-->
-<?php include "./templates/footer.php"; ?>
+	<script src="assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/chosen.jquery.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/functions.js"></script>
+	
+<?php include "./template/footer.php"; ?>

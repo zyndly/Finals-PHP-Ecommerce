@@ -1,13 +1,14 @@
 <?php
 
 require "config/constants.php";
+include "./template/header.php"; 
 
 ?>
-<!-- Headers and Navbar -->
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
-
-<!--Content-->
+<!--Navbar-->
+<?php include "./template/navbar.php"; ?>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-2"></div>
@@ -55,7 +56,26 @@ require "config/constants.php";
 				</div>
 			</div>
 			<div class="col-md-2"></div>
+			
 		</div>
 
+<script>var CURRENCY = '<?php echo CURRENCY; ?>';</script>
+</body>	
+</html>
 
-<?php include "./templates/footer.php"; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

@@ -15,10 +15,34 @@ if (isset($_POST["login_user_with_product"])) {
 
 }
 ?>
-<!-- Headers and Navbar -->
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
-<!--CONTENT-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<script src="js/jquery2.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+<div class="wait overlay">
+	<div class="loader"></div>
+</div>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">	
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Maxwell</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+			</ul>
+		</div>
+	</div>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-2"></div>
@@ -41,7 +65,7 @@ if (isset($_POST["login_user_with_product"])) {
 							<input type="password" class="form-control" name="password" id="password" required/>
 							<p><br/></p>
 							<a href="#" style="color:#333; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;" Value="Login">
-							<!--If user dont have an account then he/she will click on create account button-->
+							<!--If user don't have an account then he/she will click on create account button-->
 							<div><a href="customer_registration.php?register=1">Create a new account?</a></div>						
 						</form>
 				</div>
@@ -50,6 +74,27 @@ if (isset($_POST["login_user_with_product"])) {
 		</div>
 		<div class="col-md-4"></div>
 	</div>
-<!--FOOTER-->
-<?php include "./templates/footer.php"; ?>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

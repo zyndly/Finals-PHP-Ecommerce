@@ -2,10 +2,35 @@
 if (isset($_GET["register"])) {
 	
 	?>
-<!-- Headers and Navbar -->
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
-<!--Content-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Registration</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<script src="js/jquery2.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+<div class="wait overlay">
+	<div class="loader"></div>
+</div>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">	
+			<div class="navbar-header">
+				<a href="index.php" class="navbar-brand">Maxwell</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+			</ul>
+		</div>
+	</div>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-2"></div>
@@ -83,10 +108,8 @@ if (isset($_GET["register"])) {
 			<div class="col-md-2"></div>
 		</div>
 	</div>
-<!--END CONTENT-->
-<!--FOOTER-->
-<?php include "./templates/footer.php"; ?>
-
+</body>
+</html>
 	<?php
 }
 

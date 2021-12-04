@@ -6,8 +6,8 @@ if(isset($_SESSION["uid"])){
 }
 ?>
 <!-- Headers and Navbar -->
-<?php include_once("./templates/top.php"); ?>
-<?php include_once("./templates/navbar.php"); ?>
+<?php include_once("./template/top.php"); ?>
+<?php include_once("./template/navbar.php"); ?>
 
 
 <!--START CONTENT-->
@@ -44,4 +44,4 @@ if(isset($_SESSION["uid"])){
 	</main>
 <!--END OF CONTENT-->
 <!--FOOTER-->
-<?php include "./templates/footer.php"; ?>
+<?php include "./template/footer.php"; ?>
