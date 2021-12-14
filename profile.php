@@ -35,8 +35,71 @@ if(!isset($_SESSION["uid"])){
 	</head>
 <!--Navbar-->
 <?php include "./template/navbar.php"; ?>
+	<!--Content-->
 
-	<p><br/></p>
+	<div class="hero">
+		<div class="left">
+			<span>Exclusive Sales</span>
+			<h1>UP TO 50% OFF ON SALES</h1>
+			<small>Get all exclusive offers for the season</small>
+			<a href="#products">View Collection </a>
+		</div>
+		<div class="right">
+			<img src="./images/hero.png" alt="" />
+		</div>
+	</div>
+
+<!-- Promotion -->
+
+<section class="section promotion">
+    <div class="title">
+		<h2>Shop Collections</h2>
+		<span>Select from the premium product and save plenty money</span>
+    </div>
+
+    <div class="promotion-layout container">
+		<div class="promotion-item">
+			<img src="./images/promo1.jpg" alt="" />
+			<div class="promotion-content">
+				<h3>FOR MEN</h3>
+				<a href="#products">SHOP NOW</a>
+			</div>
+		</div>
+
+		<div class="promotion-item">
+			<img src="./images/promo2.jpg" alt="" />
+			<div class="promotion-content">
+				<h3>CASUAL SHOES</h3>
+				<a href="#products">SHOP NOW</a>
+			</div>
+		</div>
+
+		<div class="promotion-item">
+			<img src="./images/promo3.jpg" alt="" />
+			<div class="promotion-content">
+				<h3>FOR WOMEN</h3>
+				<a href="#products">SHOP NOW</a>
+			</div>
+		</div>
+
+		<div class="promotion-item">
+			<img src="./images/promo4.jpg" alt="" />
+			<div class="promotion-content">
+				<h3>LEATHER BELTS</h3>
+				<a href="#products">SHOP NOW</a>
+			</div>
+		</div>
+
+		<div class="promotion-item">
+			<img src="./images/promo5.jpg" alt="" />
+			<div class="promotion-content">
+				<h3>DESIGNER BAGS</h3>
+				<a href="#products">SHOP NOW</a>
+			</div>
+		</div>
+    </div>
+</section>
+<!-- Content -->
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-1"></div>
@@ -98,6 +161,67 @@ if(!isset($_SESSION["uid"])){
 			</div>
 		</div>
 	</div>
+
+<!-- ADVERT -->
+<section class="section advert">
+		<div class="advert-layout container">
+			<div class="item ">
+				<img src="./images/promo7.jpg" alt="">
+				<div class="content left">
+				<span>Exclusive Sales</span>
+				<h3>Spring Collections</h3>
+				<a href="">View Collection</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="./images/promo8.jpg" alt="">
+				<div class="content  right">
+				<span>New Trending</span>
+				<h3>Designer Bags</h3>
+				<a href="">Shop Now </a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- BRANDS -->
+	<section class="section brands">
+		<div class="title">
+			<h2>Shop by Brand</h2>
+			<span>Select from the premium product brands and save plenty money</span>
+		</div>
+
+		<div class="brand-layout container">
+			<div class="glide" id="glide1">
+				<div class="glide__track" data-glide-el="track">
+					<ul class="glide__slides">
+						<li class="glide__slide">
+						<img src="./images/brand1.png" alt="">
+						</li>
+						<li class="glide__slide">
+						<img src="./images/brand2.png" alt="">
+						</li>
+						<li class="glide__slide">
+						<img src="./images/brand3.png" alt="">
+						</li>
+						<li class="glide__slide">
+						<img src="./images/brand4.png" alt="">
+						</li>
+						<li class="glide__slide">
+						<img src="./images/brand5.png" alt="">
+						</li>
+						<li class="glide__slide">
+						<img src="./images/brand6.png" alt="">
+						</li>
+						<li class="glide__slide">
+						<img src="./images/brand7.png" alt="">
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>	
 <!--Footer-->
 
 <?php include "./template/footer.php"; ?>

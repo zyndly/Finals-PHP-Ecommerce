@@ -12,7 +12,6 @@
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li><a href="index.php#products"><span class="glyphicon glyphicon-products"></span> Products</a></li>
                 <li><a href="about-us.php"><span class="glyphicon glyphicon-about"></span> About Us</a></li>
                 <li><a href="#footer"><span class="glyphicon glyphicon-information"></span> Information</a></li>
