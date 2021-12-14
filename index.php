@@ -14,6 +14,7 @@ include "./template/header.php";
 <div class="wait overlay">
 	<div class="loader"></div>
 
+	
 <!--Navbar-->
 <?php include "./template/navbar.php"; ?>
 

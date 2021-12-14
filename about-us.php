@@ -9,7 +9,7 @@ if(isset($_SESSION["uid"])){
 <?php include_once("./template/top.php"); ?>
 <?php include_once("./template/navbar.php"); ?>
 <!--END OF NAV BAR-->
-
+ 
 <!--START CONTENT-->
 <main id="main" class="main-site">
 <p><br></p>

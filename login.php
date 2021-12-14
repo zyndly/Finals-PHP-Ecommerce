@@ -3,6 +3,7 @@ include "db.php";
 
 session_start();
 
+
 #Login script is begin here
 #If user given credential matches successfully with the data available in database then we will echo string login_success
 #login_success string will go back to called Anonymous funtion $("#login").click() 
