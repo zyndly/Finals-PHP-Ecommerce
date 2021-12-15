@@ -283,14 +283,19 @@ if (isset($_POST["Common"])) {
 							</form>';
 					
 				}else if(isset($_SESSION["uid"])){
+
+					/* 
+					TODO: Integrate paypal sandbox // READ SANDBOX DOCUMENTATION
+					
+					*/
 					//Paypal checkout form
 					echo '
 						</form>
 						<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 							<input type="hidden" name="cmd" value="_cart">
-							<input type="hidden" name="business" value="shoppingcart@ecommerceastro.com">
+							<input type="hidden" name="business" value="shoppingcart@maxwwell.com">
 							<input type="hidden" name="upload" value="1">';
-							  
+
 							$x=0;
 							$sql = "SELECT a.product_id,a.product_title,a.product_price,a.product_image,b.id,b.qty FROM products a,cart b WHERE a.product_id=b.p_id AND b.user_id='$_SESSION[uid]'";
 							$query = mysqli_query($con,$sql);
@@ -298,11 +303,11 @@ if (isset($_POST["Common"])) {
 								$x++;
 								echo  	
 									'<input type="hidden" name="item_name_'.$x.'" value="'.$row["product_title"].'">
-								  	 <input type="hidden" name="item_number_'.$x.'" value="'.$x.'">
-								     <input type="hidden" name="amount_'.$x.'" value="'.$row["product_price"].'">
-								     <input type="hidden" name="quantity_'.$x.'" value="'.$row["qty"].'">';
+								  	<input type="hidden" name="item_number_'.$x.'" value="'.$x.'">
+								    <input type="hidden" name="amount_'.$x.'" value="'.$row["product_price"].'">
+								    <input type="hidden" name="quantity_'.$x.'" value="'.$row["qty"].'">';
 								}
-							  
+
 							echo   
 								'<input type="hidden" name="return" value="http://localhost/project1/payment_success.php"/>
 					                <input type="hidden" name="notify_url" value="http://localhost/ecommerce-app-h/payment_success.php">
