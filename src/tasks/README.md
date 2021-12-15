@@ -10,10 +10,10 @@ Note : Please Follow the below guidelines to create task folders
 
 ### Task Table
 
-| Task No | Task Name | Details |
-| ------- | --------- | ------- |
-| 1       |           |         |
-| 2       |           |         |
-| 3       |           |         |
-| 4       |           |         |
-| 5       |           |         |
+| Task No | Task Name        | Details                                                                                                   |
+| ------- | ---------------- | --------------------------------------------------------------------------------------------------------- |
+| 1       | Frontend         | The process used to determine what the experience will be like when a user interacts with the application |
+| 2       | Software Testing | The process of verifying a system with the purpose of identifying any errors or missing requirement       |
+| 3       | Documentation    | Process documentation represents all documents produced during development                                |
+| 4       |                  |                                                                                                           |
+| 5       |                  |                                                                                                           |
