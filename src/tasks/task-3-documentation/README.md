@@ -2,8 +2,8 @@
 
 ### Links
 
-- [Documentation](#)
-- [Presentation](#)
+- [Documentation](https://docs.google.com/document/d/1SJZMxu8oNzcOn-qg4hOOk5lhLrxJYKLz5-fyMZ7Zk-w/edit?usp=sharing)
+- [Presentation](https://docs.google.com/presentation/d/1TFKFdAo3OKknLpFilTaE6wE2PIZpR9Unw8TEZ9WLDuk/edit?usp=sharing)
 
 [comment]: # "Insert details about the system"
 
