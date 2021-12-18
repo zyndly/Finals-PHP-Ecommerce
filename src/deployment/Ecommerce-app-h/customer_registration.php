@@ -5,7 +5,6 @@ if (isset($_GET["register"])) {
 	
 	?>
 
-
 <!DOCTYPE html>
 <html>
 	<head>

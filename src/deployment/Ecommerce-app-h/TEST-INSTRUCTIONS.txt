@@ -1,0 +1,8 @@
+Create ka kayo nito sa database sa phpadmin
+**Database Name: ecommerceapp**
+
+then import mo yong database na nakalagay sa DATABASE FILE
+
+**Admin Login**
+Email:    zyndly@maxwell.com
+Password: password

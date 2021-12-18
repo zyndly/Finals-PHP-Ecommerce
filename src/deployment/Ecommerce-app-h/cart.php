@@ -4,7 +4,6 @@ require "config/constants.php";
 include "./template/header.php"; 
 
 ?>
-
 <!--Navbar-->
 <?php include "./template/navbar.php"; ?>
 	<p><br/></p>

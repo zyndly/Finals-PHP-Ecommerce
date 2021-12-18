@@ -5,7 +5,6 @@ if(isset($_SESSION["uid"])){
 	header("location:profile.php");
 }
 ?>
-
 <!-- Headers and Navbar -->
 <?php include_once("./template/top.php"); ?>
 <?php include_once("./template/navbar.php"); ?>

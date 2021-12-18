@@ -9,7 +9,7 @@ if(isset($_SESSION["uid"])){
 <?php include_once("./template/top.php"); ?>
 <?php include_once("./template/navbar.php"); ?>
 <!--END OF NAV BAR-->
- 
+
 <!--START CONTENT-->
 <main id="main" class="main-site">
 <p><br></p>
@@ -114,9 +114,7 @@ if(isset($_SESSION["uid"])){
 					data-dots="false"
 					data-margin="30"
 					data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"3"},"1200":{"items":"4"}}' >
-
-					
-
+			
 					<div class="team-member equal-elem">
 						<div class="media">
 							<a href="#" title="John Mark">
@@ -139,6 +137,19 @@ if(isset($_SESSION["uid"])){
 						<div class="info">
 							<b class="name">JM</b>
 							<span class="title">Marketer</span>
+							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+						</div>
+					</div>
+
+					<div class="team-member equal-elem">
+						<div class="media">
+							<a href="#" title="Miggy">
+								<figure><img src="assets/images/member-bancifra.jpg" alt="Bancifra"></figure>
+							</a>
+						</div>
+						<div class="info">
+							<b class="name">Miggy</b>
+							<span class="title">Member</span>
 							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
 						</div>
 					</div>
@@ -208,20 +219,7 @@ if(isset($_SESSION["uid"])){
 							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
 						</div>
 					</div>
-
-					<div class="team-member equal-elem">
-						<div class="media">
-							<a href="#" title="Miggy">
-								<figure><img src="assets/images/member-bancifra.jpg" alt="Bancifra"></figure>
-							</a>
-						</div>
-						<div class="info">
-							<b class="name">Miggy</b>
-							<span class="title">Member</span>
-							<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
-						</div>
-					</div>
-
+					
 				</div><!--end Carousel -->
 			</div>
 		</div>
